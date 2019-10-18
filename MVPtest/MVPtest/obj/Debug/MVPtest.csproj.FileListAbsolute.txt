@@ -1,0 +1,9 @@
+c:\users\101\documents\visual studio 2015\Projects\MVPtest\MVPtest\bin\Debug\MVPtest.exe.config
+c:\users\101\documents\visual studio 2015\Projects\MVPtest\MVPtest\obj\Debug\MVPtest.csprojResolveAssemblyReference.cache
+c:\users\101\documents\visual studio 2015\Projects\MVPtest\MVPtest\obj\Debug\MVPtest.Form1.resources
+c:\users\101\documents\visual studio 2015\Projects\MVPtest\MVPtest\obj\Debug\MVPtest.Properties.Resources.resources
+c:\users\101\documents\visual studio 2015\Projects\MVPtest\MVPtest\obj\Debug\MVPtest.csproj.GenerateResource.Cache
+C:\Users\101\Documents\Visual Studio 2015\Projects\MVPtest\MVPtest\bin\Debug\MVPtest.exe
+C:\Users\101\Documents\Visual Studio 2015\Projects\MVPtest\MVPtest\bin\Debug\MVPtest.pdb
+C:\Users\101\Documents\Visual Studio 2015\Projects\MVPtest\MVPtest\obj\Debug\MVPtest.exe
+C:\Users\101\Documents\Visual Studio 2015\Projects\MVPtest\MVPtest\obj\Debug\MVPtest.pdb
