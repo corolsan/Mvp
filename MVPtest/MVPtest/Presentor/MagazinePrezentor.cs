@@ -41,16 +41,30 @@ namespace MVPtest.Presentor
            
         }
 
-        public string whoBolshe()
+        public void whoBolshe()
         {
+            Deistvie();
             int g = gip.pribl / gip.kolpavelion;
             int u = uni.pribl / uni.kolSotrud;
+            string maxName;
+            int maxI;
 
             if (lar.pribl > (g))
-                return lar.name;
-            else if ((g) > (u))
-                return gip.name;
-            else return uni.name;
+            {
+                maxName = lar.name;
+                maxI = lar.pribl;
+            }
+            else
+            {
+                maxName = gip.name;
+                maxI = gip.pribl / gip.kolpavelion;
+            }
+            if (u > maxI)
+                maxName = uni.name;
+
+            magazView.areaText = maxName;
+
+
         }
        
 
