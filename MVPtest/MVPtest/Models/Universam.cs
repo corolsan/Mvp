@@ -8,6 +8,6 @@ namespace MVPtest.Models
 {
     public class Universam:Magazine
     {
-        public int kolPavelionov { get; set; }
+        public int kolSotrud { get; set; }
     }
 }

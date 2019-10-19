@@ -9,5 +9,7 @@ namespace MVPtest.Models
     public class Larec:Magazine
     {
         public string nameProdovec { get; set; }
+
+        
     }
 }

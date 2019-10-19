@@ -10,11 +10,5 @@ namespace MVPtest.Models
     {
         public int pribl { get; set; }
         public string name { get; set; }
-
-        public string gdebolshezarabativaut()
-        {
-            return name;
-        }
-
     }
 }

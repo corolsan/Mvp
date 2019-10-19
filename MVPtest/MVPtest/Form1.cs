@@ -33,31 +33,131 @@ namespace MVPtest
             }
         }
 
-        public string nameText
+        public string nameText1
         {
             get
             {
-                return textName.Text;
+                return textName1.Text;
             }
 
             set
             {
-                textName.Text = value;
+                textName1.Text = value;
 
             }
         }
 
-        public string priblText
+        public string priblText1
         {
             get
             {
-                return textPribl.Text;
+                return textPribl1.Text;
 
             }
 
             set
             {
-                textPribl.Text = value;
+                textPribl1.Text = value;
+
+            }
+        }
+
+        public string nameProd
+        {
+            get
+            {
+                return textNameProdov.Text;
+
+            }
+
+            set
+            {
+                textNameProdov.Text = value;
+
+            }
+        }
+
+        public string nameText2
+        {
+            get
+            {
+                return textName2.Text;
+            }
+
+            set
+            {
+                textName2.Text = value;
+
+            }
+        }
+
+        public string priblText2
+        {
+            get
+            {
+                return textPribl2.Text;
+
+            }
+
+            set
+            {
+                textPribl2.Text = value;
+
+            }
+        }
+
+        public string kolSotr
+        {
+            get
+            {
+                return textKolSot.Text;
+            }
+
+            set
+            {
+                textKolSot.Text = value;
+            }
+        }
+
+        public string nameText3
+        {
+            get
+            {
+                return textName3.Text;
+            }
+
+            set
+            {
+                textName3.Text = value;
+
+            }
+        }
+
+        public string priblText3
+        {
+            get
+            {
+                return textPribl3.Text;
+
+            }
+
+            set
+            {
+                textPribl3.Text = value;
+
+            }
+        }
+
+        public string kolPav
+        {
+            get
+            {
+                return textKolPav.Text;
+            }
+
+            set
+            {
+                textKolPav.Text = value;
 
             }
         }
@@ -71,11 +171,16 @@ namespace MVPtest
         {
             MagazinePrezentor presentor = new MagazinePrezentor(this);
 
-            presentor.Deistvie();
+            presentor.whoBolshe();
 
 
 
 
+
+        }
+
+        private void textNameProdov_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

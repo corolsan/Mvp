@@ -7,3 +7,12 @@ C:\Users\101\Documents\Visual Studio 2015\Projects\MVPtest\MVPtest\bin\Debug\MVP
 C:\Users\101\Documents\Visual Studio 2015\Projects\MVPtest\MVPtest\bin\Debug\MVPtest.pdb
 C:\Users\101\Documents\Visual Studio 2015\Projects\MVPtest\MVPtest\obj\Debug\MVPtest.exe
 C:\Users\101\Documents\Visual Studio 2015\Projects\MVPtest\MVPtest\obj\Debug\MVPtest.pdb
+S:\PortableGit\MVPtest\MVPtest\bin\Debug\MVPtest.exe.config
+S:\PortableGit\MVPtest\MVPtest\obj\Debug\MVPtest.exe
+S:\PortableGit\MVPtest\MVPtest\obj\Debug\MVPtest.pdb
+S:\PortableGit\MVPtest\MVPtest\obj\Debug\MVPtest.csprojResolveAssemblyReference.cache
+S:\PortableGit\MVPtest\MVPtest\obj\Debug\MVPtest.Form1.resources
+S:\PortableGit\MVPtest\MVPtest\obj\Debug\MVPtest.Properties.Resources.resources
+S:\PortableGit\MVPtest\MVPtest\obj\Debug\MVPtest.csproj.GenerateResource.Cache
+S:\PortableGit\MVPtest\MVPtest\bin\Debug\MVPtest.exe
+S:\PortableGit\MVPtest\MVPtest\bin\Debug\MVPtest.pdb

@@ -10,6 +10,10 @@ namespace MVPtest.Presentor
 {
     public class MagazinePrezentor
     {
+        public Larec lar = new Larec();
+        public Gipermarc gip = new Gipermarc();
+        public Universam uni = new Universam();
+
         IMagazine magazView;
         public MagazinePrezentor(IMagazine view)
         {
@@ -17,12 +21,38 @@ namespace MVPtest.Presentor
         }
         public void Deistvie()
         {
-            Magazine magaz = new Magazine();
-            magaz.name = magazView.nameText;
-            magaz.pribl = int.Parse(magazView.priblText);
+            
+            lar.name = magazView.nameText1;
+            lar.pribl = int.Parse(magazView.priblText1);
+            lar.nameProdovec = magazView.nameProd;
 
-            magazView.areaText = magaz.gdebolshezarabativaut().ToString();
+            
+            gip.name = magazView.nameText3;
+            gip.pribl = int.Parse(magazView.priblText3);
+            gip.kolpavelion = int.Parse(magazView.kolPav);
+
+            
+            uni.name = magazView.nameText2;
+            uni.pribl = int.Parse(magazView.priblText2);
+            uni.kolSotrud = int.Parse(magazView.kolSotr);
+            
+            //magazView.areaText = lar.gdebolshezarabativaut().ToString();
+
+           
         }
+
+        public string whoBolshe()
+        {
+            int g = gip.pribl / gip.kolpavelion;
+            int u = uni.pribl / uni.kolSotrud;
+
+            if (lar.pribl > (g))
+                return lar.name;
+            else if ((g) > (u))
+                return gip.name;
+            else return uni.name;
+        }
+       
 
     }
 }

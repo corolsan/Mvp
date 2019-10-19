@@ -8,8 +8,18 @@ namespace MVPtest.View
 {
     public interface IMagazine
     {
-        string nameText { get; set; }
-        string priblText { get; set; }
+        string nameText1 { get; set; }
+        string priblText1 { get; set; }
+        string nameProd { get; set; }
+
+        string nameText2 { get; set; }
+        string priblText2 { get; set; }
+        string kolSotr { get; set; }
+
+        string nameText3 { get; set; }
+        string priblText3 { get; set; }
+        string kolPav { get; set; }
+
         string areaText { get; set; }
     }
 }
